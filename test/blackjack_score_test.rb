@@ -17,7 +17,7 @@ describe 'Blackjack Score' do
     # Act
     score = blackjack_score(hand)
 
-    # Assert <-  You do this part!
+    expect(score).must_equal 7
 
   end
 
